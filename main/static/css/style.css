@@ -5,6 +5,7 @@ img {
     height: 100%;
 }
 
+
 /*!sc*/
 .leTRdU {
     position: relative;
@@ -2778,5 +2779,453 @@ img {
         -ms-letter-spacing: 0rem;
         letter-spacing: 0rem;
         line-height: 1.35;
+    }
+}
+
+.ebBzwJ {
+    background: linear-gradient(110deg, rgb(131, 221, 203) 25%, rgb(243, 129, 129) 60%, rgb(248, 174, 142) 100%);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    padding-top: 3.375rem;
+    height: auto;
+}
+
+@media (min-width: 60em) {
+    .ebBzwJ {
+        height: 70vh;
+        padding-top: 0px;
+    }
+}
+
+.gcjMaM {
+    background-image: url('https://www.kidsandus.com/static/billboard-divider-b9eecab4ce4698dec81922a9587aee0a.png');
+    background-repeat: repeat-x;
+    height: 69px;
+    overflow: hidden;
+    position: absolute;
+    background-position-y: 100%;
+    width: 100%;
+    bottom: 0px;
+}
+
+.QRKUs {
+    -webkit-box-align: center;
+    align-items: center;
+    background: rgb(255, 210, 207);
+    color: rgb(98, 0, 12);
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    padding: 3rem 0px;
+}
+
+@media (min-width: 60em) {
+    .QRKUs {
+        padding: 4rem 0px;
+    }
+}
+
+.dZeSfd:first-child {
+    margin-top: 0px;
+}
+
+.dZeSfd {
+    text-align: center;
+}
+
+.dZeSfd .description {
+    margin-top: 2rem;
+}
+
+.ezsWss:last-child {
+    margin-bottom: 0px;
+}
+
+.ezsWss {
+    align-items: flex-start;
+    display: flex;
+    flex-flow: row wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: auto;
+}
+
+.kIuzyi {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    max-width: 16.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+.kIuzyi.pointer {
+    cursor: pointer;
+}
+
+@media (min-width: 60em) {
+    .kIuzyi {
+        margin-top: 4rem;
+        max-width: none;
+        min-width: 15.5rem;
+        padding: 0px 1rem;
+        width: 25%;
+    }
+}
+.kIuzyi .icon {
+    font-family: Arial, sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    letter-spacing: -0.0625rem;
+    line-height: 1.36;
+    height: 6.25rem;
+    margin-bottom: 1rem;
+    width: 6.25rem;
+}
+@media (min-width: 60em) {
+    .kIuzyi .icon {
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (min-width: 60em) {
+    .kIuzyi .icon {
+        font-family: Arial, sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        letter-spacing: 0rem;
+        line-height: 1.35;
+    }
+}
+
+
+
+.dTCrOA {
+    position: relative;
+    overflow: hidden;
+}
+
+.dTCrOA .bg {
+    background: url('https://www-backend-pro.kidsandus.com/sites/default/files/styles/original/public/2022-05/Mousy_100px.png?itok=oUWqRnQJ') center center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.kIuzyi .title-card {
+    font-family: Arial, sans-serif;
+    font-size: 1.3125rem;
+    font-weight: 400;
+    letter-spacing: 0rem;
+    line-height: 1.25;
+    margin-bottom: 0.5rem;
+}
+@media (min-width: 60em) {
+.kIuzyi .title-card {
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0rem;
+    line-height: 1.37;
+}
+}
+
+.kIuzyi .description-card {
+    font-family: Arial, sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    letter-spacing: -0.0625rem;
+    line-height: 1.36;
+    padding: 0px;
+}
+
+@media (min-width: 60em) {
+.kIuzyi .description-card {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0rem;
+    line-height: 1.35;
+}
+}
+
+.jeMOCE {
+    margin: 0px auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    width: 100%;
+    max-width: 44rem;
+}
+
+@media (min-width: 44em) {
+    .jriswU {
+        padding: 3rem 0px;
+    }
+}
+.ilxCvd {
+    position: relative;
+    overflow: hidden;
+}
+.ilxCvd .bg {
+    background: url(https://www-backend-pro.kidsandus.com/sites/default/files/styles/original/public/2022-05/Linda_100px.png?itok=EBpTIRyD) center center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.dZeSfd{
+    width: auto;
+}
+
+
+.iafBhl {
+    background: rgb(255, 240, 240);
+    color: rgb(98, 0, 12);
+    padding: 0px;
+}
+
+@media (min-width: 60em) {
+    .iafBhl {
+        padding: 4rem 0px;
+    }
+}
+
+.hnvHY {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 0px;
+    max-width: 100%;
+}
+
+@media (min-width: 60em) {
+.hnvHY {
+    flex-direction: row;
+    text-align: left;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+}
+
+@media (max-width: 119.9375em) {
+    .hnvHY {
+        max-width: 100%;
+    }
+}
+
+.BcRtG {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+@media (min-width: 60em) {
+
+    .BcRtG {
+        padding: 0px;
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 119.9375em) {
+    .BcRtG {
+        max-width: 100%;
+    }
+}
+
+.fSgAsj {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 2rem 1.5rem;
+}
+
+@media (min-width: 60em) {
+    .fSgAsj {
+        padding: 0px 4rem;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 44em) {
+    .jriswU {
+        padding: 3rem 0px;
+    }
+}
+
+.jriswU p + p, .jriswU p + .link {
+    margin-top: 1.5rem;
+}
+
+.fSgAsj .text {
+    margin-top: 1.5rem;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+@media (min-width: 60em) {
+    .fSgAsj .text {
+        margin-left: 0px;
+        margin-top: 1rem;
+    }
+}
+
+
+.ituBAZ {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+}
+
+@media (min-width: 60em) {
+    .ituBAZ {
+        max-width: 50%;
+    }
+}
+
+.ituBAZ .image {
+    width: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+@media (min-width: 60em) {
+    .ituBAZ .image {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.lbRutw {
+    background: rgb(255, 255, 255);
+    color: rgb(38, 38, 38);
+    padding: 0px;
+}
+
+@media (min-width: 60em) {
+    .lbRutw {
+        padding: 4rem 0px;
+    }
+}
+
+@media (min-width: 60em) {
+    .BcRtG.reverse {
+        flex-direction: row-reverse;
+    }
+}
+
+
+.ebhuiX {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 2rem 1.5rem;
+}
+
+@media (min-width: 60em) {
+    .ebhuiX {
+        padding: 0px 4rem;
+        max-width: 50%;
+    }
+}
+
+
+.bdzjHb {
+    color: rgb(255, 255, 255);
+    background: rgb(38, 38, 38);
+    padding: 4rem 0px;
+    position: relative;
+    text-align: center;
+}
+
+@media (min-width: 60em) {
+    .bdzjHb {
+        padding: 4rem 0px;
+    }
+}
+
+.jeMOCE {
+    margin: 0px auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    width: 100%;
+    max-width: 44rem;
+}
+
+
+.dqbnmY {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 60em) {
+    .dqbnmY {
+        -webkit-box-align: initial;
+        align-items: initial;
+        flex-flow: row wrap;
+        -webkit-box-pack: center;
+        justify-content: center;
+    }
+}
+
+.giYitx {
+    display: flex;
+    flex-direction: column;
+    max-width: 40rem;
+    width: 100%;
+    position: relative;
+    margin-bottom: 2px;
+}
+
+@media (min-width: 60em) {
+    .giYitx {
+        margin: 2px;
+        width: calc(25% - 0.25rem);
+    }
+}
+
+.giYitx .top {
+    margin-bottom: 2px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+@media (min-width: 60em) {
+    .giYitx .top {
+        margin-bottom: 0px;
+    }
+}
+
+.giYitx .top_image {
+    width: 100%;
+}
+
+.dXxpSA {
+    position: relative;
+    overflow: hidden;
+}
+
+@media (min-width: 60em) {
+    .giYitx .top_clickable {
+        flex: 1 1 0%;
+        cursor: pointer;
     }
 }

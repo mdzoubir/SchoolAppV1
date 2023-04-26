@@ -23,4 +23,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index),
     path('english_courses/', views.english_courses),
+    path('english_courses/babies-ages-1-2/', views.courses_babies),
 ]

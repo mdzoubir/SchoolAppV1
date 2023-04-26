@@ -8,3 +8,7 @@ def index(request):
 
 def english_courses(request):
     return render(request, "courses/our_courses.html")
+
+
+def courses_babies(request):
+    return render(request, "courses/babies.html")
