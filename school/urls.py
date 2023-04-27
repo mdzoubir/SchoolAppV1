@@ -24,4 +24,5 @@ urlpatterns = [
     path('', views.index),
     path('english_courses/', views.english_courses),
     path('english_courses/babies-ages-1-2/', views.courses_babies),
+    path('english_courses/kids-ages-3-8/', views.courses_kids),
 ]

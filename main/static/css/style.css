@@ -5,7 +5,6 @@ img {
     height: 100%;
 }
 
-
 /*!sc*/
 .leTRdU {
     position: relative;
@@ -651,7 +650,7 @@ img {
 }
 
 .iuerg {
-    background: linear-gradient(110deg, rgb(131, 221, 203) 25%, rgb(107, 178, 158) 60%, rgb(131, 203, 156) 100%);
+    background: linear-gradient(110deg, rgb(131, 221, 203) 25%, rgb(107, 178, 158) 60%, rgb(131, 203, 156) 100%) !important;
 }
 
 .jkzbf {
@@ -3024,7 +3023,7 @@ img {
 
 .BcRtG {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding: 0px;
 }
 
@@ -3144,6 +3143,18 @@ img {
     }
 }
 
+.ebhuiX .text {
+    margin-top: 1.5rem;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+@media (min-width: 60em) {
+    .ebhuiX .text {
+        margin-left: 0px;
+        margin-top: 1rem;
+    }
+}
 
 .bdzjHb {
     color: rgb(255, 255, 255);
@@ -3227,5 +3238,128 @@ img {
     .giYitx .top_clickable {
         flex: 1 1 0%;
         cursor: pointer;
+    }
+}
+
+.ddMLkC {
+    -webkit-box-align: center;
+    align-items: center;
+    background: rgb(198, 238, 224);
+    color: rgb(12, 65, 72);
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    padding: 3rem 0px;
+}
+
+@media (min-width: 60em) {
+    .ddMLkC {
+        padding: 4rem 0px;
+    }
+}
+
+.eYgJyP, .gTomBR, .QMfrU, .fCURay, .fIPCPV, .BJNjI {
+    position: relative;
+    overflow: hidden;
+}
+
+.gTomBR .bg {
+    background: url(https://www-backend-pro.kidsandus.com/sites/default/files/styles/original/public/2022-07/PictoKIDS_1.png?itok=yoB1F_Jc) center center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.QMfrU .bg {
+    background: url(https://www-backend-pro.kidsandus.com/sites/default/files/styles/original/public/2022-07/PictoKIDS_2.png?itok=A1VFhlWP) center center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.fCURay .bg {
+    background: url(https://www-backend-pro.kidsandus.com/sites/default/files/styles/original/public/2022-07/PictoKIDS_3.png?itok=He-UhYqM) center center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.fIPCPV .bg {
+    background: url(https://www-backend-pro.kidsandus.com/sites/default/files/styles/original/public/2022-07/PictoKIDS_4.png?itok=OxcQNNN_) center center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.BJNjI .bg {
+    background: url(https://www-backend-pro.kidsandus.com/sites/default/files/styles/original/public/2022-07/PictoKIDS_5.png?itok=oSynzbPS) center center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.eYgJyP .bg {
+    background: url(https://www-backend-pro.kidsandus.com/sites/default/files/styles/original/public/2022-07/PictoKIDS_6.png?itok=xqDVeAc0) center center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+
+.gQZsNb {
+    background: rgb(226, 251, 242);
+    color: rgb(12, 65, 72);
+    padding: 0px;
+}
+
+
+@media (min-width: 60em) {
+    .gQZsNb {
+        padding: 4rem 0px;
+    }
+}
+
+.fbjeFe {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: auto;
+}
+.hidden_modile_image{
+    display: block;
+}
+.hidden_modile_web{
+    display: none;
+}
+.dZNrZM {
+    background: rgb(255, 240, 240);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+@media (min-width: 60em) {
+    .dZNrZM {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    .hidden_modile_image{
+        display: none;
+    }
+    .hidden_modile_web{
+        display: block;
+    }
+}
+
+@media (min-width: 60em) {
+    .giYitx:nth-child(1):nth-last-child(3), .giYitx:nth-child(2):nth-last-child(2), .giYitx:nth-child(3):nth-last-child(1) {
+        width: calc(33.3333% - 0.5rem);
+        margin-bottom: 0px;
     }
 }

@@ -12,3 +12,6 @@ def english_courses(request):
 
 def courses_babies(request):
     return render(request, "courses/babies.html")
+
+def courses_kids(request):
+    return render(request, "courses/kids.html")
