@@ -19,3 +19,7 @@ def courses_kids(request):
 
 def courses_preteens(request):
     return render(request, "courses/preteens.html")
+
+
+def courses_teens(request):
+    return render(request, "courses/teens.html")
