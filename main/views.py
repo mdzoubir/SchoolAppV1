@@ -15,3 +15,7 @@ def courses_babies(request):
 
 def courses_kids(request):
     return render(request, "courses/kids.html")
+
+
+def courses_preteens(request):
+    return render(request, "courses/preteens.html")

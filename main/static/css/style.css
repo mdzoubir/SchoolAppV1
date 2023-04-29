@@ -2850,7 +2850,6 @@ img {
     flex-flow: row wrap;
     -webkit-box-pack: center;
     justify-content: center;
-    width: auto;
 }
 
 .kIuzyi {
@@ -2871,12 +2870,12 @@ img {
 @media (min-width: 60em) {
     .kIuzyi {
         margin-top: 4rem;
-        max-width: none;
         min-width: 15.5rem;
         padding: 0px 1rem;
         width: 25%;
     }
 }
+
 .kIuzyi .icon {
     font-family: Arial, sans-serif;
     font-size: 0.9375rem;
@@ -2887,6 +2886,7 @@ img {
     margin-bottom: 1rem;
     width: 6.25rem;
 }
+
 @media (min-width: 60em) {
     .kIuzyi .icon {
         margin-bottom: 1.5rem;
@@ -2902,7 +2902,6 @@ img {
         line-height: 1.35;
     }
 }
-
 
 
 .dTCrOA {
@@ -2926,14 +2925,15 @@ img {
     line-height: 1.25;
     margin-bottom: 0.5rem;
 }
+
 @media (min-width: 60em) {
-.kIuzyi .title-card {
-    font-family: Arial, sans-serif;
-    font-size: 1.5rem;
-    font-weight: 400;
-    letter-spacing: 0rem;
-    line-height: 1.37;
-}
+    .kIuzyi .title-card {
+        font-family: Arial, sans-serif;
+        font-size: 1.5rem;
+        font-weight: 400;
+        letter-spacing: 0rem;
+        line-height: 1.37;
+    }
 }
 
 .kIuzyi .description-card {
@@ -2946,13 +2946,13 @@ img {
 }
 
 @media (min-width: 60em) {
-.kIuzyi .description-card {
-    font-family: Arial, sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    letter-spacing: 0rem;
-    line-height: 1.35;
-}
+    .kIuzyi .description-card {
+        font-family: Arial, sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        letter-spacing: 0rem;
+        line-height: 1.35;
+    }
 }
 
 .jeMOCE {
@@ -2968,10 +2968,12 @@ img {
         padding: 3rem 0px;
     }
 }
+
 .ilxCvd {
     position: relative;
     overflow: hidden;
 }
+
 .ilxCvd .bg {
     background: url(https://www-backend-pro.kidsandus.com/sites/default/files/styles/original/public/2022-05/Linda_100px.png?itok=EBpTIRyD) center center / cover no-repeat;
     width: 100%;
@@ -2980,7 +2982,7 @@ img {
     position: absolute;
 }
 
-.dZeSfd{
+.dZeSfd {
     width: auto;
 }
 
@@ -3006,13 +3008,13 @@ img {
 }
 
 @media (min-width: 60em) {
-.hnvHY {
-    flex-direction: row;
-    text-align: left;
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-}
+    .hnvHY {
+        flex-direction: row;
+        text-align: left;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+    }
 }
 
 @media (max-width: 119.9375em) {
@@ -3071,6 +3073,7 @@ img {
     padding: 0px;
     margin-bottom: 0px;
 }
+
 @media (min-width: 60em) {
     .fSgAsj .text {
         margin-left: 0px;
@@ -3332,12 +3335,15 @@ img {
     justify-content: center;
     width: auto;
 }
-.hidden_modile_image{
+
+.hidden_modile_image {
     display: block;
 }
-.hidden_modile_web{
+
+.hidden_modile_web {
     display: none;
 }
+
 .dZNrZM {
     background: rgb(255, 240, 240);
     padding-top: 3rem;
@@ -3349,10 +3355,12 @@ img {
         padding-top: 4rem;
         padding-bottom: 4rem;
     }
-    .hidden_modile_image{
+
+    .hidden_modile_image {
         display: none;
     }
-    .hidden_modile_web{
+
+    .hidden_modile_web {
         display: block;
     }
 }
@@ -3362,4 +3370,22 @@ img {
         width: calc(33.3333% - 0.5rem);
         margin-bottom: 0px;
     }
+}
+
+
+.elhrUH {
+    background: linear-gradient(110deg, rgb(131, 203, 156) 25%, rgb(77, 186, 140) 60%, rgb(255, 194, 125) 100%);
+    color: rgb(255, 255, 255);
+}
+
+.bAQdBy {
+    background: rgb(201, 240, 182);
+}
+
+.eciPsf {
+    background: rgb(255, 245, 215);
+}
+
+.iXOrmS{
+    background: rgb(232, 255, 215);
 }
