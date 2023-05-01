@@ -23,3 +23,7 @@ def courses_preteens(request):
 
 def courses_teens(request):
     return render(request, "courses/teens.html")
+
+
+def activities_english_children(request):
+    return render(request, "activities/our_activities.html")
