@@ -27,3 +27,7 @@ def courses_teens(request):
 
 def activities_english_children(request):
     return render(request, "activities/our_activities.html")
+
+
+def our_camps(request):
+    return render(request, "activities/holiday/our_camps.html")

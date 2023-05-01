@@ -3377,7 +3377,7 @@ img {
 }
 
 .bAQdBy {
-    background: rgb(201, 240, 182);
+    background: rgb(201, 240, 182) !important;
 }
 
 .eciPsf {
@@ -3445,7 +3445,7 @@ img {
 }
 
 .ddVoYN{
-    background: rgb(254, 221, 120);
+    background: rgb(254, 221, 120) !important;
 }
 
 .hPyRMJ {
@@ -3713,4 +3713,199 @@ img {
 
 .kSPhkY {
     background: rgb(254, 221, 120);
+}
+
+.iCkyga {
+    background: rgb(255, 245, 215);
+    padding: 1.5rem 0px;
+    width: 100%;
+}
+
+@media (min-width: 60em) {
+    .iCkyga {
+        padding: 4rem 0px;
+    }
+}
+
+.fJUblt {
+    background: rgb(246, 246, 246);
+    color: rgb(38, 38, 38);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2px;
+    max-width: 35rem;
+    min-height: 21.875rem;
+    width: 100%;
+    text-align: center;
+}
+
+
+@media (min-width: 60em) {
+    .fJUblt {
+        margin: 1px;
+        max-width: none;
+        width: calc(50% - 0.25rem);
+    }
+}
+
+@media (min-width: 60em) {
+    .fJUblt:first-child:nth-last-child(1), .fJUblt:first-child:nth-last-child(2n+1) {
+        flex-direction: row;
+        width: 100%;
+    }
+}
+
+
+.fJUblt .textZone {
+    padding: 1.5rem 1.5rem 0px;
+    width: 100%;
+}
+
+@media (min-width: 60em) {
+    .fJUblt .textZone {
+        padding: 3rem 3rem 0px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 60em) {
+    .fJUblt:first-child:nth-last-child(2) .textZone, .fJUblt:first-child:nth-last-child(2) ~ .fJUblt .textZone, .fJUblt:nth-last-child(n) .textZone {
+        min-height: 16.5625rem;
+    }
+}
+
+@media (min-width: 60em) {
+    .fJUblt:first-child:nth-last-child(1) .textZone, .fJUblt:first-child:nth-last-child(2n+1) .textZone {
+        width: 45%;
+    }
+}
+
+
+.fJUblt .textZone_title {
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: -0.0625rem;
+    line-height: 1.27;
+    margin-bottom: 0.5rem;
+}
+
+@media (min-width: 60em) {
+    .fJUblt .textZone_title {
+        font-family: Arial, sans-serif;
+        font-size: 2.3125rem;
+        font-weight: 400;
+        letter-spacing: 0rem;
+        line-height: 1.24;
+    }
+}
+
+@media (min-width: 60em) {
+    .fJUblt .textZone_title {
+        margin-bottom: 1.5rem;
+    }
+}
+
+.fJUblt .textZone_text {
+    font-family: Arial, sans-serif;
+    font-size: 1.0625rem;
+    font-weight: 400;
+    letter-spacing: 0rem;
+    line-height: 1.45;
+    margin-bottom: 1.5rem;
+}
+
+.fJUblt .btnWrapper {
+    text-align: center;
+}
+
+.lmEcaw {
+    -webkit-box-align: center;
+    align-items: center;
+    border: 2px solid currentcolor;
+    cursor: pointer;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    min-width: 7.5rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: all 0.1s ease-out 0s;
+    vertical-align: text-top;
+    width: auto;
+    will-change: background, color;
+    background: none;
+    color: rgb(96, 41, 0);
+    font-family: Arial, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0rem;
+    line-height: 1.1;
+    white-space: nowrap;
+}
+
+@media (min-width: 60em) {
+    .lmEcaw {
+        font-family: Arial, sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+        letter-spacing: 0rem;
+        line-height: 1.4;
+    }
+}
+
+.fJUblt .btnWrapper .btn {
+    text-align: center;
+    border: 2px solid rgb(38, 38, 38);
+    color: rgb(38, 38, 38);
+}
+
+.fJUblt .imageZone {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-top: 2.5rem;
+    width: 100%;
+}
+
+
+@media (min-width: 60em) {
+    .fJUblt .imageZone {
+        margin-top: 0.5rem;
+    }
+}
+
+@media (min-width: 60em) {
+    .fJUblt:first-child:nth-last-child(1) .imageZone, .fJUblt:first-child:nth-last-child(2n+1) .imageZone {
+        margin-top: 0px;
+        width: 55%;
+    }
+}
+
+.fJUblt .imageZone_image {
+    width: 90%;
+}
+
+@media (min-width: 60em) {
+    .fJUblt .imageZone_image {
+        align-items: flex-end;
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 60em) {
+    .fJUblt:first-child:nth-last-child(2) .imageZone_image, .fJUblt:first-child:nth-last-child(2) ~ .fJUblt .imageZone_image, .fJUblt:nth-last-child(n) .imageZone_image {
+        width: 85%;
+    }
+}
+
+@media (min-width: 60em) {
+    .fJUblt:first-child:nth-last-child(1) .imageZone_image, .fJUblt:first-child:nth-last-child(2n+1) .imageZone_image {
+        width: 100%;
+    }
+}
+
+.spkn{
+    background: rgb(198, 238, 224);
 }
