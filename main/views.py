@@ -30,4 +30,8 @@ def activities_english_children(request):
 
 
 def our_camps(request):
-    return render(request, "activities/holiday/our_camps.html")
+    return render(request, "activities/camps/our_camps.html")
+
+
+def linguistic_immersion(request):
+    return render(request, "activities/camps/linguistic_immersion.html")

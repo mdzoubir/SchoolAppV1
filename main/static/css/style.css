@@ -6,7 +6,7 @@ img {
 }
 
 /*!sc*/
-.leTRdU{
+.leTRdU, .kgGzJd, .bUKNga, .ihzbkm, .bzgrit{
     position: relative;
     overflow: hidden;
 }
@@ -2849,12 +2849,14 @@ img {
     margin-bottom: 0px;
 }
 
+
 .ezsWss {
     align-items: flex-start;
     display: flex;
     flex-flow: row wrap;
     -webkit-box-pack: center;
     justify-content: center;
+        width: -webkit-fill-available;
 }
 
 .kIuzyi {
@@ -3317,7 +3319,6 @@ img {
 .gQZsNb {
     background: rgb(226, 251, 242);
     color: rgb(12, 65, 72);
-    padding: 0px;
 }
 
 
@@ -3454,6 +3455,7 @@ img {
 
 .ikBVbR {
     padding: 3rem 1.5rem;
+    width: auto;
     text-align: center;
 }
 
@@ -3482,6 +3484,7 @@ img {
 
 .dixsbX {
     text-align: center;
+    width: auto;
 }
 
 .jFYyVm {
@@ -3908,4 +3911,256 @@ img {
 
 .spkn{
     background: rgb(198, 238, 224);
+}
+
+
+.bzgrit .bg {
+    background: url(https://www-backend-pro.kidsandus.com/sites/default/files/styles/original/public/2022-11/icon-staff-performance-kids-and-us.png?itok=VJ2LREPI) center center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.ihzbkm .bg {
+    background: url(https://www-backend-pro.kidsandus.com/sites/default/files/styles/original/public/2022-11/icon-inside-out-kids-and-us.png?itok=TpMJKkTp) center center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.bUKNga .bg {
+    background: url(https://www-backend-pro.kidsandus.com/sites/default/files/styles/original/public/2022-11/icon-night-out-kids-and-us.png?itok=8sKB0Qdl) center center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.kgGzJd .bg {
+    background: url(https://www-backend-pro.kidsandus.com/sites/default/files/styles/original/public/2022-11/icon-themed-dinner-kids-and-us.png?itok=Pnkb0eXK) center center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+@media (min-width: 60em) {
+    .blKpdY{
+        margin-bottom: 6rem;
+    }
+}
+
+.blKpdY {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+    width: auto;
+}
+
+@media (min-width: 60em) {
+    .blKpdY {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+}
+
+.blKpdY h2.title {
+    margin-bottom: 3rem;
+    font-size: 3.8125rem;
+    font-weight: 300;
+    letter-spacing: -0.125rem;
+    line-height: 1.15;
+}
+
+
+.BRrDi {
+    border-bottom: 1px solid rgb(240, 240, 240);
+    cursor: pointer;
+    display: flex;
+    font-weight: 500;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    outline: none;
+    padding: 1rem 0px;
+    text-align: left;
+    width: 100%;
+}
+
+.BRrDi:first-of-type {
+    border-top: 1px solid rgb(240, 240, 240);
+}
+
+
+.BRrDi .chevron {
+    height: 0.625rem;
+    margin: auto 0.8125rem;
+    transition: all 0.6s ease 0s;
+    width: 1rem;
+}
+
+.kdQnSX {
+    background: rgb(38, 38, 38);
+    color: rgb(255, 255, 255);
+    display: none;
+}
+
+@media (min-width: 44em) {
+    .jriswU {
+        padding: 3rem 0px;
+    }
+}
+.kdQnSX > div {
+    padding: 1.5rem 1.5rem 2rem;
+}
+
+.BRrDi.open .chevron {
+    transform: scaleY(-1);
+}
+
+.BRrDi.open {
+    border-bottom: none;
+}
+
+
+.dixsbX .title{
+    font-size: 3.8125rem;
+    font-weight: 300;
+    letter-spacing: -0.125rem;
+    line-height: 1.15;
+}
+
+.kSPhkY {
+    background: rgb(254, 221, 120);
+    color: rgb(96, 41, 0);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2px;
+    max-width: 35rem;
+    min-height: 21.875rem;
+    width: 100%;
+    text-align: center;
+}
+
+
+@media (min-width: 60em) {
+    .kSPhkY {
+        margin: 1px;
+        max-width: none;
+        width: calc(50% - 0.25rem);
+    }
+}
+
+
+.koGhLn {
+    background: rgb(201, 240, 182);
+    color: rgb(30, 71, 5);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2px;
+    max-width: 35rem;
+    min-height: 21.875rem;
+    width: 100%;
+    text-align: center;
+}
+
+@media (min-width: 60em) {
+    .koGhLn {
+        margin: 1px;
+        max-width: none;
+        width: calc(50% - 0.25rem);
+    }
+}
+
+.kSPhkY .textZone_title {
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: -0.0625rem;
+    line-height: 1.27;
+    margin-bottom: 0.5rem;
+}
+
+
+@media (min-width: 60em) {
+    .kSPhkY .textZone_title {
+        font-family: Arial, sans-serif;
+        font-size: 2.3125rem;
+        font-weight: 400;
+        letter-spacing: 0rem;
+        line-height: 1.24;
+    }
+}
+
+@media (min-width: 60em) {
+    .kSPhkY .textZone_title {
+        margin-bottom: 1.5rem;
+    }
+}
+
+.kSPhkY .textZone {
+    padding: 1.5rem 1.5rem 0px;
+}
+@media (min-width: 60em) {
+    .kSPhkY .textZone {
+        padding: 3rem 3rem 0px;
+    }
+}
+
+@media (min-width: 60em) {
+    .kSPhkY:first-child:nth-last-child(2) .textZone, .kSPhkY:first-child:nth-last-child(2) ~ .kSPhkY .textZone, .kSPhkY:nth-last-child(n) .textZone {
+        min-height: 16.5625rem;
+    }
+}
+
+.kSPhkY .textZone_text {
+    font-family: Arial, sans-serif;
+    font-size: 1.0625rem;
+    font-weight: 400;
+    letter-spacing: 0rem;
+    line-height: 1.45;
+    margin-bottom: 1.5rem;
+}
+
+
+    @media (min-width: 60em) {
+        .dixsbX .title {
+            margin: 4rem 0px 3.5rem;
+        }
+}
+
+
+.jbfpn{
+        background: rgb(201, 240, 182);
+}
+.kSPhkY .imageZone {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-top: 2.5rem;
+    width: 100%;
+}
+
+@media (min-width: 60em) {
+    .kSPhkY .imageZone {
+        margin-top: 0.5rem;
+    }
+}
+
+.kSPhkY .imageZone_image {
+    width: 90%;
+}
+
+@media (min-width: 60em) {
+    .kSPhkY .imageZone_image {
+        align-items: flex-end;
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 60em) {
+    .kSPhkY:first-child:nth-last-child(2) .imageZone_image, .kSPhkY:first-child:nth-last-child(2) ~ .kSPhkY .imageZone_image, .kSPhkY:nth-last-child(n) .imageZone_image {
+        width: 85%;
+    }
 }
