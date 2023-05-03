@@ -43,3 +43,7 @@ def summer_cumps(request):
 
 def sport_cumps(request):
     return render(request, "activities/camps/sport.html")
+
+
+def theme_cumps(request):
+    return render(request, "activities/camps/theme.html")
