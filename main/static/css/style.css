@@ -3711,7 +3711,7 @@ img {
 }
 
 .feUsFf {
-    background: rgb(198, 238, 224) ;
+    background: rgb(198, 238, 224) !important;
 }
 
 .kSPhkY {
@@ -4163,4 +4163,190 @@ img {
     .kSPhkY:first-child:nth-last-child(2) .imageZone_image, .kSPhkY:first-child:nth-last-child(2) ~ .kSPhkY .imageZone_image, .kSPhkY:nth-last-child(n) .imageZone_image {
         width: 85%;
     }
+}
+
+.gjKmof .bg {
+    background: url(https://www-backend-pro.kidsandus.com/sites/default/files/styles/original/public/2022-11/icon-storytime-kids-and-us.png?itok=o1bG9m-u) center center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.boZjfP .bg {
+    background: url(https://www-backend-pro.kidsandus.com/sites/default/files/styles/original/public/2022-11/icon-crafts-kids-and-us.png?itok=Y2VS7ETx) center center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.ldsNRO .bg {
+    background: url(https://www-backend-pro.kidsandus.com/sites/default/files/styles/original/public/2022-11/icon-songs-kids-and-us.png?itok=_-AYY-7g) center center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.fjCXhZ .bg {
+    background: url(https://www-backend-pro.kidsandus.com/sites/default/files/styles/original/public/2022-11/icon-staff-performance-kids-and-us_0.png?itok=Kv3EOKV6) center center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.iqqFdi .bg {
+    background: url(https://www-backend-pro.kidsandus.com/sites/default/files/styles/original/public/2022-11/icon-structured-play-kids-and-us.png?itok=VDO2JtPq) center center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.bsfftG .bg {
+    background: url(https://www-backend-pro.kidsandus.com/sites/default/files/styles/original/public/2022-11/icon-free-play-kids-and-us.png?itok=7fSPZ0xM) center center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.fwmNen .bg {
+    background: url(https://www-backend-pro.kidsandus.com/sites/default/files/styles/original/public/2022-11/icon-day-trips-kids-and-us.png?itok=l4E0M-8Y) center center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.carPI .bg {
+    background: url(https://www-backend-pro.kidsandus.com/sites/default/files/styles/original/public/2022-11/icon-lunchtime-kids-and-us.png?itok=H-u0HzoN) center center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.eCkikE .bg {
+    background: url(https://www-backend-pro.kidsandus.com/sites/default/files/styles/original/public/2022-11/icon-party-time-kids-and-us.png?itok=YiDn-OgS) center center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.eCkikE, .carPI, .fwmNen, .bsfftG, .iqqFdi, .fjCXhZ, .ldsNRO, .boZjfP, .gjKmof{
+    position: relative;
+    overflow: hidden;
+}
+
+
+.hPyRMJ {
+    width: 100%;
+}
+
+.ikBVbR {
+    padding: 3rem 1.5rem;
+}
+
+@media (min-width: 44em) {
+    .ikBVbR {
+        padding: 3rem 0px;
+    }
+}
+
+.ikBVbR :first-child {
+    margin-top: 0px;
+}
+
+.ikBVbR h3, .ikBVbR .title3 {
+    margin: 3rem 0px 2rem;
+    text-align: left;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h3, .title3 {
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: -0.0625rem;
+    line-height: 1.27;
+}
+
+@media (min-width: 60em) {
+    h3, .title3 {
+        font-family: Arial, sans-serif;
+        font-size: 2.3125rem;
+        font-weight: 400;
+        letter-spacing: 0rem;
+        line-height: 1.24;
+    }
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+ul, ol {
+    list-style: none;
+    padding: 0px;
+}
+
+.ikBVbR ul, .ikBVbR ol {
+    margin-left: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+@media (min-width: 60em) {
+    .ikBVbR ul, .ikBVbR ol {
+        margin-left: 3rem;
+    }
+}
+
+
+.ikBVbR ul li {
+    position: relative;
+    text-align: left;
+}
+
+.ikBVbR :first-child {
+    margin-top: 0px;
+}
+
+.ikBVbR li:not(:last-child) {
+    margin: 0px 0px 1rem;
+}
+
+.ikBVbR a {
+    color: rgb(161, 0, 24) !important;
+}
+
+.ikBVbR ul li::before {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAYAAACZ3F9/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFaSURBVHgBbVJBaoRAEBx1l4WFhQm74NVc1KP+IL4g+UGyP8gPlv1BnmBekGPIKe4PzE3wkPmAxIOgImiqw7RR2QGZmprq7ppuLaGX4zjStu33w+EQ7/d7URTFhXjXdU/gEnDBbrf7KMuyId7gQAgeDMN443PbtjdSSlHX9Q9zfd8f8zyPCa+YNE0zHYahBJR0Xq/XTlVV0rIslpTAyahnkGWZQsUQUOlEjxDe62sFHJGG9Ybv+w4sPKGaIhtBEMipPW0x7LpOwQU9x0HS2PA875t6w5nJLi4DMV+p1kjWrSaHv+YiSFxZy0TCRIUj9i/srwiK8N0uRcTRHWlwvACfZ+lplpvN5gT4DFEKgdQWXzCes1KqHJMxoCZB/KmFVCVCU+RktgrBIQeP44AoEP9NEk3TKJrt1BB1dXwjg+12m2BjK4qWnluiudkPMHsj2aXMqJZO3wP+bsn9AkjRnuEcyeQ7AAAAAElFTkSuQmCC) 50% center / contain no-repeat;
+    content: "";
+    height: 14px;
+    left: -1.5rem;
+    position: absolute;
+    top: 0.45rem;
+    width: 14px;
+}
+
+.QRVZRjz {
+    background: rgb(255, 210, 207);
 }

@@ -30,4 +30,5 @@ urlpatterns = [
     path('activities-english-children/', views.activities_english_children),
     path('activities-english-children/camps/', views.our_camps),
     path('activities-english-children/camps/linguistic-immersion/', views.linguistic_immersion),
+    path('activities-english-children/camps/summer/', views.summer),
 ]
