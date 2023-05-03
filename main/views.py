@@ -37,5 +37,9 @@ def linguistic_immersion(request):
     return render(request, "activities/camps/linguistic_immersion.html")
 
 
-def summer(request):
+def summer_cumps(request):
     return render(request, "activities/camps/summer.html")
+
+
+def sport_cumps(request):
+    return render(request, "activities/camps/sport.html")
