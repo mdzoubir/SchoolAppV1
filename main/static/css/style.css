@@ -4359,7 +4359,7 @@ ul, ol {
     position: absolute;
 }
 
-.hZlNQd, .gSLwcZ, .bsfftG{
+.hZlNQd, .gSLwcZ, .bsfftG, .kpAtPx{
     position: relative;
     overflow: hidden;
 }
@@ -4374,6 +4374,15 @@ ul, ol {
 
 .bsfftG .bg {
     background: url(https://www-backend-pro.kidsandus.com/sites/default/files/styles/original/public/2022-11/icon-free-play-kids-and-us.png?itok=7fSPZ0xM) center center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+
+.kpAtPx .bg {
+    background: url(https://www-backend-pro.kidsandus.com/sites/default/files/styles/original/public/2022-11/icon-little-chef-kids-and-us.png?itok=jSLprOCu) center center / cover no-repeat;
     width: 100%;
     height: 100%;
     overflow: hidden;

@@ -47,3 +47,7 @@ def sport_cumps(request):
 
 def theme_cumps(request):
     return render(request, "activities/camps/theme.html")
+
+
+def fun_day_camps(request):
+    return render(request, "activities/camps/fun_day.html")
