@@ -51,3 +51,7 @@ def theme_cumps(request):
 
 def fun_day_camps(request):
     return render(request, "activities/camps/fun_day.html")
+
+
+def workshops(request):
+    return render(request, "activities/workshops/workshops.html")
