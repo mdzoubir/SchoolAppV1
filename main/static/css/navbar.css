@@ -72,32 +72,12 @@ ol {
     height: 3.375rem;
     pointer-events: initial;
     position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
     -webkit-transition: background 0.25s ease-in-out;
     transition: background 0.25s ease-in-out;
     will-change: background;
-}
-
-@media (min-width: 60em) {
-    .gQkeed .sticky {
-        margin-top: 1rem;
-    }
-
-    .gQkeed .sticky::before {
-        background: #fff;
-        bottom: 100%;
-        content: '';
-        display: block;
-        height: 1rem;
-        left: 0;
-        opacity: 0;
-        position: absolute;
-        -webkit-transition: opacity 0.25s ease-in-out;
-        transition: opacity 0.25s ease-in-out;
-        width: 100%;
-        will-change: opacity;
-    }
 }
 
 .bZFMjS {
@@ -175,14 +155,12 @@ ol {
         background: #fff;
         height: calc(100vh - 3.375rem);
         left: 100%;
-        overflow-x: hidden;
         overflow-y: auto;
         position: fixed;
         top: 3.375rem;
-        -webkit-transition: left 0.65s ease-in-out;
-        transition: left 0.65s ease-in-out;
         width: 100%;
         will-change: left;
+        margin-top: 53px;
     }
 
     .gGaVHo.open {
@@ -227,7 +205,6 @@ ol {
 .gWOzHC .links a {
     font-family: Arial, sans-serif;
     font-size: 0.6875rem;
-    font-weight: 400;
     -webkit-letter-spacing: 0rem;
     -moz-letter-spacing: 0rem;
     -ms-letter-spacing: 0rem;
@@ -639,6 +616,7 @@ ol {
 .jGyQWv {
     margin-left: auto;
     width: 1.625rem;
+    cursor: pointer;
 }
 
 /*!sc*/
