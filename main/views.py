@@ -79,3 +79,7 @@ def theatre(request):
 
 def method(request):
     return render(request, "method.html")
+
+
+def learn_english(request):
+    return render(request, "activities/workshops/learn_english.html")
