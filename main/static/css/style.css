@@ -4,7 +4,23 @@ img {
     display: block;
     height: 100%;
 }
+h2, .title2 {
+    font-family: Arial, sans-serif;
+    font-size: 1.9375rem;
+    font-weight: 400;
+    letter-spacing: 0rem;
+    line-height: 1.16;
+}
 
+@media (min-width: 60em) {
+    h2, .title2 {
+        font-family: Arial, sans-serif;
+        font-size: 3.5625rem;
+        font-weight: 400;
+        letter-spacing: 0rem;
+        line-height: 1.26;
+    }
+}
 /*!sc*/
 .leTRdU, .kgGzJd, .bUKNga, .ihzbkm, .bzgrit {
     position: relative;
