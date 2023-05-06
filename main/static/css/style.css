@@ -5199,3 +5199,13 @@ option:disabled {
     height: 100vh;
     max-height: 500px;
 }
+.nav-colored{
+    background-color: white !important;
+}
+
+.title-style{
+    color: black;
+}
+.bgtyt{
+    color: black !important;
+}

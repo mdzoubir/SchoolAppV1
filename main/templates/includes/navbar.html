@@ -10,7 +10,7 @@
 <body>
 <div style="outline: none;">
     <div class="gQkeed">
-        <div class="sticky">
+        <div class="sticky" id="sticky">
             <div class=" bZFMjS wrapper">
                 <div class="eYctao">
                     <a class href="#">
@@ -19,11 +19,12 @@
                 </div>
                 <div class="gGaVHo">
                     <ul class="links">
-                        <li class="euCHsL primary"><a href="http://127.0.0.1:8000/method" class="zkbln"><span>Method</span></a></li>
+                        <li class="euCHsL primary"><a href="http://127.0.0.1:8000/method"
+                                                      class="zkbln"><span class="mn">Method</span></a></li>
                         <li class="styles__StyledLink-sc-fqq7yn-4 euCHsL root primary">
-                            <button class="zkbln"><span>English courses</span>
+                            <button class="zkbln"><span class="mn">English courses</span>
                                 <svg fill="none"
-                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 10" class="chevron ">
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 10" class="mn chevron">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
                                           d="M1.293 1.293a1 1 0 011.414 0L8 6.586l5.293-5.293a1 1 0 111.414 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414z"
                                           fill="#303030"></path>
@@ -50,9 +51,9 @@
                             </div>
                         </li>
                         <li class="styles__StyledLink-sc-fqq7yn-4 euCHsL root primary">
-                            <button class="zkbln"><span>English activities</span>
+                            <button class="zkbln"><span class="mn">English activities</span>
                                 <svg fill="none"
-                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 10" class="chevron">
+                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 10" class="chevron mn">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
                                           d="M1.293 1.293a1 1 0 011.414 0L8 6.586l5.293-5.293a1 1 0 111.414 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414z"
                                           fill="#303030"></path>
@@ -126,19 +127,21 @@
                                             </ul>
                                         </div>
                                     </li>
-                                    <li class="styles__StyledLink-sc-fqq7yn-4 euCHsL"><a href="http://127.0.0.1:8000/activities-english-children/learn-english"><span>Learn English at home</span></a>
+                                    <li class="styles__StyledLink-sc-fqq7yn-4 euCHsL"><a
+                                            href="http://127.0.0.1:8000/activities-english-children/learn-english"><span>Learn English at home</span></a>
                                     </li>
                                 </ul>
                             </div>
                         </li>
                         <li class="styles__StyledLink-sc-fqq7yn-4 euCHsL primary">
-                            <a class="zkbln" href="http://127.0.0.1:8000/academies"><span>English schools</span></a>
+                            <a class="zkbln" href="http://127.0.0.1:8000/academies"><span
+                                    class="mn">English schools</span></a>
                         </li>
                     </ul>
                     <div class="cvMSM"><a
                             href="http://127.0.0.1:8000/contact/" class=" vqxsT cta ">Contact us</a></div>
                 </div>
-                <div class="jGyQWv"><span></span>
+                <div class="jGyQWv"><span id="lzn"></span>
                     <div class="text">Menu</div>
                 </div>
             </div>
@@ -275,7 +278,57 @@
 
 <script>
 
+    const nav = document.getElementById('sticky');
+    const lzn = document.getElementById('lzn');
+    const titles = document.getElementsByClassName('mn');
 
+
+    let burger = document.getElementsByClassName('jGyQWv')[0];
+    let menu = document.getElementsByClassName('gGaVHo')[0];
+    let open = document.getElementsByClassName('open');
+
+    let hLBqCv = document.getElementsByClassName('hLBqCv');
+
+    burger.addEventListener("click", function () {
+        if (open.length > 0) {
+            burger.classList.remove("open");
+            menu.classList.remove("open");
+            for (let i = 0; i <= 3; i++) {
+                hLBqCv[i].classList.remove("ehrer")
+            }
+        } else {
+            menu.classList.add("open");
+            burger.classList.add("open");
+            for (let i = 0; i <= 3; i++) {
+                hLBqCv[i].classList.add("ehrer")
+            }
+        }
+    })
+
+    window.onscroll = function () {
+        if (window.scrollY > 10) {
+            nav.classList.add("nav-colored");
+            lzn.classList.add("bgtyt");
+            for (let i = 0; i <= 5; i++) {
+                titles[i].classList.add("title-style")
+            }
+        } else {
+            nav.classList.remove("nav-colored");
+            lzn.classList.remove("bgtyt");
+            for (let i = 0; i <= 5; i++) {
+                titles[i].classList.remove("title-style")
+            }
+        }
+    };
+
+
+    window.addEventListener('resize', function (){
+        if (document.documentElement.clientWidth > 955){
+            for (let i = 0; i <= 3; i++) {
+                hLBqCv[i].classList.remove("ehrer")
+            }
+        }
+    })
 </script>
 
 {% block script %}{% endblock script %}
