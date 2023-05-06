@@ -67,3 +67,7 @@ def storytime(request):
 
 def science(request):
     return render(request, "activities/workshops/science.html")
+
+
+def cooking(request):
+    return render(request, "activities/workshops/cooking.html")
