@@ -63,3 +63,7 @@ def contact(request):
 
 def storytime(request):
     return render(request, "activities/workshops/storytime.html")
+
+
+def science(request):
+    return render(request, "activities/workshops/science.html")

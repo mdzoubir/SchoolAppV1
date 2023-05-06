@@ -4,6 +4,15 @@ img {
     display: block;
     height: 100%;
 }
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
 h2, .title2 {
     font-family: Arial, sans-serif;
     font-size: 1.9375rem;
