@@ -71,3 +71,7 @@ def science(request):
 
 def cooking(request):
     return render(request, "activities/workshops/cooking.html")
+
+
+def theatre(request):
+    return render(request, "activities/workshops/theatre.html")
