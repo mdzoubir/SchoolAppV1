@@ -81,5 +81,9 @@ def method(request):
     return render(request, "method.html")
 
 
+def academies(request):
+    return render(request, "academies.html")
+
+
 def learn_english(request):
     return render(request, "activities/workshops/learn_english.html")
