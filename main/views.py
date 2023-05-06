@@ -55,3 +55,7 @@ def fun_day_camps(request):
 
 def workshops(request):
     return render(request, "activities/workshops/workshops.html")
+
+
+def contact(request):
+    return render(request, "contact.html")
