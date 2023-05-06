@@ -75,3 +75,7 @@ def cooking(request):
 
 def theatre(request):
     return render(request, "activities/workshops/theatre.html")
+
+
+def method(request):
+    return render(request, "method.html")

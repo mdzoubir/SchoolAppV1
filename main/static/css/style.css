@@ -4,6 +4,7 @@ img {
     display: block;
     height: 100%;
 }
+
 h2 {
     display: block;
     font-size: 1.5em;
@@ -13,6 +14,7 @@ h2 {
     margin-inline-end: 0px;
     font-weight: bold;
 }
+
 h2, .title2 {
     font-family: Arial, sans-serif;
     font-size: 1.9375rem;
@@ -30,6 +32,7 @@ h2, .title2 {
         line-height: 1.26;
     }
 }
+
 /*!sc*/
 .leTRdU, .kgGzJd, .bUKNga, .ihzbkm, .bzgrit {
     position: relative;
@@ -274,7 +277,7 @@ h2, .title2 {
 
 /*!sc*/
 .gVvRin {
-    background: linear-gradient(110deg, rgb(131, 221, 203) 25%, rgb(243, 129, 129) 60%, rgb(248, 174, 142) 100%);
+    background: linear-gradient(110deg, rgb(246, 187, 119) 25%, rgb(255, 156, 130) 60%, rgb(235, 112, 134) 100%);
     color: #fff;
     display: -webkit-box;
     display: -webkit-flex;
@@ -377,9 +380,6 @@ h2, .title2 {
 
 /*!sc*/
 @media (min-width: 60em) {
-    .bNGFdg {
-        padding-top: 2.1875rem;
-    }
 
     .bNGFdg .bottomImage {
         padding-top: 0;
@@ -601,9 +601,6 @@ h2, .title2 {
 }
 
 @media (min-width: 60em) {
-    .bNGFdg {
-        padding-top: 2.1875rem;
-    }
 
     .bnENfd {
         padding: 7rem 4rem 0rem 4rem;
@@ -4863,8 +4860,166 @@ option:disabled {
     left: 0px;
     margin: auto;
 }
+
 .jkebml .image img {
     height: initial;
     width: 25.625rem;
     position: relative;
+}
+
+.eOYysF .wysiwyg p {
+    font-family: Arial, sans-serif;
+    font-size: 1.3125rem;
+    font-weight: 400;
+    letter-spacing: 0rem;
+    line-height: 1.25;
+}
+
+@media (min-width: 60em) {
+    .eOYysF .wysiwyg p {
+        font-family: Arial, sans-serif;
+        font-size: 1.5rem;
+        font-weight: 400;
+        letter-spacing: 0rem;
+        line-height: 1.37;
+    }
+}
+
+.hpCTeP {
+    background: rgb(255, 240, 240);
+    color: rgb(98, 0, 12);
+    padding: 0px;
+}
+
+.faJtuJ {
+    background: rgb(226, 251, 242);
+    color: rgb(12, 65, 72);
+    padding: 0px;
+}
+
+.klDOMk {
+    background: rgb(232, 255, 215);
+    color: rgb(30, 71, 5);
+    padding: 0px;
+}
+
+.hguKFh {
+    background: rgb(255, 245, 215);
+    color: rgb(96, 41, 0);
+    padding: 0px;
+}
+
+.hyWaGC {
+    background: rgb(38, 38, 38);
+    color: rgb(255, 255, 255);
+    padding: 0px;
+}
+.dUHFna {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem 1.5rem;
+}
+
+@media (min-width: 60em) {
+    .dUHFna {
+        padding: 0px 4rem;
+        max-width: 50%;
+    }
+}
+
+.dUHFna .text {
+    margin-top: 1.5rem;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+@media (min-width: 60em) {
+    .dUHFna .text {
+        margin-left: 0px;
+        margin-top: 1rem;
+    }
+}
+.fOmNDf p + p, .fOmNDf p + .link {
+    margin-top: 1.5rem;
+}
+.jwxppq {
+    -webkit-box-align: center;
+    align-items: center;
+    background: rgb(38, 38, 38);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    padding: 3rem 0px;
+}
+@media (min-width: 60em) {
+    .jwxppq {
+        padding: 4rem 0px;
+    }
+}
+.dZeSfd .description {
+    margin-top: 2rem;
+}
+.doxRcq .bg {
+    background: url(https://www-backend-pro.kidsandus.com/sites/default/files/styles/original/public/2022-11/icon-own-method-kids-and-us.png?itok=WZGMSJzT) center center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+.doxRcq, .jaZQwL, .gHaxIn, .cDYQpy, .fdksGQ, .fnndWn, .duOEUp, .hbkyQa {
+    position: relative;
+    overflow: hidden;
+}
+.hbkyQa .bg {
+    background: url(https://www-backend-pro.kidsandus.com/sites/default/files/styles/original/public/2022-11/icon-access-to-the-method-kids-and-us.png?itok=MZ3-wdUO) center center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+.duOEUp .bg {
+    background: url(https://www-backend-pro.kidsandus.com/sites/default/files/styles/original/public/2022-11/icon-daily-exhibition-kids-and-us.png?itok=L1Cfvd97) center center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+.fnndWn .bg {
+    background: url(https://www-backend-pro.kidsandus.com/sites/default/files/styles/original/public/2022-11/icon-improvement-kids-and-us.png?itok=-4gHuBQY) center center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+.fdksGQ .bg {
+    background: url(https://www-backend-pro.kidsandus.com/sites/default/files/styles/original/public/2022-11/icon-quality-control-kids-and-us.png?itok=y4b0IuDv) center center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+.cDYQpy .bg {
+    background: url(https://www-backend-pro.kidsandus.com/sites/default/files/styles/original/public/2022-11/icon-courses-kids-and-us.png?itok=QJKGYgTK) center center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+.jaZQwL .bg {
+    background: url(https://www-backend-pro.kidsandus.com/sites/default/files/styles/original/public/2022-11/icon-dynamic-sessions-kids-and-us.png?itok=ue1HHljs) center center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+.gHaxIn .bg {
+    background: url(https://www-backend-pro.kidsandus.com/sites/default/files/styles/original/public/2022-11/icon-small-groups-kids-and-us.png?itok=Aq0B9Qty) center center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
 }
