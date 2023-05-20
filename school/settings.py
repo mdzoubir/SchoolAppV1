@@ -35,7 +35,7 @@ STATIC_URL = "/static/"
 STATIC_ROOT = os.path.join(BASE_DIR, "main/static")
 
 
-# django_heroku.settings(locals())
+django_heroku.settings(locals())
 # Application definition
 
 INSTALLED_APPS = [
